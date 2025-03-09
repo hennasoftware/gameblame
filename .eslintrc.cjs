@@ -24,7 +24,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    "indent": ["error", 2],
-    "@typescript-eslint/indent": ["error", 2],
+    indent: ['error', 2],
+    '@typescript-eslint/indent': ['error', 2],
   },
 }
