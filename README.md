@@ -1,54 +1,81 @@
-# React + TypeScript + Vite
+# 🎮 GameBlame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **GameBlame**, a simple and efficient way to track your video game backlog! Easily manage the games you've played, are currently playing, or plan to play in the future.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 About the Project
 
-## Expanding the ESLint configuration
+This project aims to create a feature-rich web application where gamers can:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Manage their game backlogs efficiently.
+- Create and share personalized game collections.
+- Interact with the gaming community through reviews and forums.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+The platform is designed with both functionality and user engagement in mind, providing tools to track progress, share
+experiences, and celebrate gaming milestones.
+
+---
+
+## 🚀 Project Vision
+
+Our goal is to deliver an intuitive and collaborative platform that:
+
+1. Simplifies backlog management.
+2. Fosters a sense of community among gamers.
+3. Encourages discovery and sharing of games.
+
+The MVP will focus on core features like backlog management and game requests, while future releases will expand on user
+interaction, achievements, forum, reviews and more admin functionality.
+
+---
+
+## 🔧 Tech Stack
+
+This project leverages modern web development technologies:
+
+- **Frontend**: Typescript React + Vite
+- **Backend**: Firebase
+- **Database**: Firebase Firestore
+- **Authentication**: Firebase Authentication
+
+---
+
+## 📂 Repository Structure
+
+The repository is structured as a monorepo, with separate directories for the frontend and backend:
+
+```plain text
+/just-another-game-backlog
+├── .github/     # Project templates
+├── public/      # Public assets
+├── src/         # React + Vite frontend
+├── docs/        # General documentation
+└── README.md    # Main documentation
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 How to Contribute
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+We welcome contributors who share our passion for gaming and development!
+To get involved, check our [CONTRIBUTING.md](./docs/CONTRIBUTING.md).
+
+---
+
+## 🛠 Future Plans
+
+As the project evolves, the README will include detailed setup instructions, deployment guides, and comprehensive
+documentation for developers and contributors.
+
+---
+
+## 🤝 Team Values
+
+- **Collaboration**: Open communication and teamwork drive our success.
+- **Learning**: Every project is an opportunity to grow and improve.
+- **Impact**: We aim to build meaningful and user-focused solutions.
+
+Stay tuned for updates as we shape this exciting project together!
+
+---
