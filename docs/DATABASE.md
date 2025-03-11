@@ -77,10 +77,10 @@ Stores registered user-specific backlog data.
 
 ```json
 {
-  "userUid": "string",  // Reference to users.uid
+  "userUid": "string", // Reference to users.uid
   "games": [
     {
-      "steamAppId": "string",  // Reference to games.steamAppId
+      "steamAppId": "string", // Reference to games.steamAppId
       "status": "string",
       "addedAt": "timestamp"
     }

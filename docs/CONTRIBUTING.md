@@ -68,7 +68,7 @@ revert:    # Reverting a previous commit
 
 ```sh
 git push origin <branch>
-``` 
+```
 
 ### 8. Create a Pull Request
 
@@ -112,6 +112,5 @@ test/      # Adding or updating tests
 Feel free to open an issue or ask in our [Discord](https://discord.gg/RbSCJWZpaw) community. 🚀
 
 Thanks for contributing! 🎮✨
-
 
 ---
